@@ -601,7 +601,7 @@ Our team will contact you within 24–48 hours.`
                   </div>
 
                   <div className="pt-4">
-                    <Button type="submit" size="lg" className="w-full shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#d6ad55] to-[#b6892e] text-white font-medium hover:brightness-110 transition-all duration-300 py-7 text-lg" disabled={isSubmitting}>
+                    <Button type="submit" size="lg" className="w-full shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#27565E] to-[#27565E] text-white font-medium hover:brightness-110 transition-all duration-300 py-7 text-lg" disabled={isSubmitting}>
                       {isSubmitting ? (
                         <span className="flex items-center gap-2">
                           <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />

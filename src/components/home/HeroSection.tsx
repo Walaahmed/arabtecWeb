@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
-import heroMeeting from '@/assets/hero.jpg';
+import heroMeeting from '@/assets/pho2.jpg';
 
 const HeroSection = () => {
   const { t, i18n } = useTranslation();
@@ -103,7 +103,7 @@ const HeroSection = () => {
               variants={itemVariants}
               className="flex flex-wrap gap-4"
             >
-              <Button size="lg" asChild className="group shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#d6ad55] to-[#b6892e] text-white font-medium hover:brightness-110 transition-all duration-300">
+              <Button size="lg" asChild className="group shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#27565E] to-[#27565E] text-white font-medium hover:brightness-110 transition-all duration-300">
                 <Link to="/book-consultation">
                   <span>{t('hero.bookConsultation')}</span>
                   <ArrowIcon className={`w-5 h-5 transition-transform duration-300 ${isRTL ? 'group-hover:-translate-x-2' : 'group-hover:translate-x-2'}`} />

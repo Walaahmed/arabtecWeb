@@ -183,7 +183,7 @@ const ServicesSection = () => {
                   {/* Button */}
                   <Link
                     to={`/services/${service.slug}`}
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#d6ad55] to-[#b6892e] text-white font-medium hover:brightness-110 transition-all duration-300"
+                    className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#27565E] to-[#27565E] text-white font-medium hover:brightness-110 transition-all duration-300"
                   >
                     <span>{service.buttonText}</span>
                     <motion.div
@@ -216,7 +216,7 @@ const ServicesSection = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center mt-16"
         >
-          <Button size="lg" asChild className="shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#d6ad55] to-[#b6892e] text-white font-medium hover:brightness-110 transition-all duration-300">
+          <Button size="lg" asChild className="shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#27565E] to-[#27565E] text-white font-medium hover:brightness-110 transition-all duration-300">
             <Link to="/services" className="group">
               <Sparkles className="w-4 h-4 group-hover:animate-pulse" />
               {isRTL ? 'اكتشف جميع خدماتنا' : 'Discover All Our Services'}

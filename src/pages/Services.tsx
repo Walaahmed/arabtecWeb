@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Layout from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Briefcase, Monitor, GraduationCap, CheckCircle, Cpu, Building2, Users, MessageCircle } from 'lucide-react';
-import heroMeeting from '@/assets/hero-meeting.jpg';
+import heroMeeting from '@/assets/pho4.jpg';
 
 const Services = () => {
   const { t, i18n } = useTranslation();
@@ -172,7 +172,7 @@ const Services = () => {
               <div className="mt-auto">
                 <Link
                   to={`/services/${service.slug}`}
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#d6ad55] to-[#b6892e] text-white font-medium hover:brightness-110 transition-all duration-300 group w-full"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#27565E] to-[#27565E] text-white font-medium hover:brightness-110 transition-all duration-300 group w-full"
                 >
                   <span>{service.cta}</span>
                   <ArrowIcon className={`w-4 h-4 transition-transform ${isRTL ? 'group-hover:-translate-x-1' : 'group-hover:translate-x-1'}`} />
@@ -264,7 +264,7 @@ const Services = () => {
                   size="xl"
                   asChild
                   className="
-                    bg-gradient-to-b from-[#d6ad55] to-[#b6892e]
+                    bg-gradient-to-b from-[#27565E] to-[#27565E]
                     text-white font-semibold
                     px-8 py-6 rounded-xl
                     shadow-[0_10px_30px_rgba(182,137,46,0.35)]

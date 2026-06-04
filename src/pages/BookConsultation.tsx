@@ -70,8 +70,8 @@ const BookConsultation = () => {
 
   // أضفنا قائمة رموز الدول هنا
   const countryCodes = [
-    { code: '+971', label: isRTL ? 'الإمارات (+971)' : 'UAE (+971)', flag: '🇦🇪' },
     { code: '+966', label: isRTL ? 'السعودية (+966)' : 'KSA (+966)', flag: '🇸🇦' },
+    { code: '+971', label: isRTL ? 'الإمارات (+971)' : 'UAE (+971)', flag: '🇦🇪' },
     { code: '+968', label: isRTL ? 'عمان (+968)' : 'Oman (+968)', flag: '🇴🇲' },
     { code: '+974', label: isRTL ? 'قطر (+974)' : 'Qatar (+974)', flag: '🇶🇦' },
     { code: '+965', label: isRTL ? 'الكويت (+965)' : 'Kuwait (+965)', flag: '🇰🇼' },
@@ -94,7 +94,7 @@ const BookConsultation = () => {
     organization: '',
     position: '',
     email: '',
-    countryCode: '+971', 
+    countryCode: '+966', 
     phone: '',
     sector: '',
     subject: '',
@@ -518,7 +518,7 @@ const BookConsultation = () => {
                     <Button
                       type="submit"
                       size="lg"
-                      className="group shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#d6ad55] to-[#b6892e] text-white font-medium hover:brightness-110 transition-all duration-300 px-12 py-7 text-lg"
+                      className="group shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#27565E] to-[#27565E] text-white font-medium hover:brightness-110 transition-all duration-300 px-12 py-7 text-lg"
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? (

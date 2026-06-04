@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Layout from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Cpu, Brain, Shield, Users, Target, BarChart3, RefreshCw, Cloud, Database, Zap, Globe, Smartphone, Lock, TrendingUp, CheckCircle } from 'lucide-react';
-import digitalHero from '@/assets/digital-hero.jpg';
+import digitalHero from '@/assets/pho6.jpg';
 
 const DigitalTransformation = () => {
   const { t, i18n } = useTranslation();

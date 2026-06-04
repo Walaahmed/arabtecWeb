@@ -10,8 +10,8 @@ const arTranslations = {
     services: 'خدماتنا',
     contact: 'تواصل معنا',
     startNow: 'طلب استشارة',
-    companyName: 'آفاق التميز',
-    companySlogan: 'للاستشارات والتدريب',
+    companyName: ' مركز التقنية',
+    companySlogan: ' العربية للتدريب',
   },
   
   // Hero Section
@@ -29,9 +29,9 @@ const arTranslations = {
   // About Section
   about: {
     badge: 'من نحن',
-    title: 'ATC للاستشارات',
+    title: 'ARABTEC للاستشارات',
     subtitle: 'شريككم في النجاح المؤسسي',
-    description: 'ATC للاستشارات هي شركة استشارات وتطوير مؤسسي متخصصة في تقديم الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي للجهات الحكومية والمؤسسات.',
+    description: 'ARABTEC للاستشارات هي شركة استشارات وتطوير مؤسسي متخصصة في تقديم الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي للجهات الحكومية والمؤسسات.',
     feature1: 'الاستشارات المؤسسية والاستراتيجية',
     feature2: 'التحول الرقمي والاستشارات التقنية',
     feature3: 'التدريب التنفيذي وبناء القدرات',
@@ -45,12 +45,13 @@ const arTranslations = {
   
   // About Page
   aboutPage: {
-    badge: 'تعرّف علينا',
+    badge: ' قصتنا',
     title1: 'نصنع',
     titleHighlight: 'التميز',
     title2: 'معاً',
-    companyName: 'آفاق التميز للاستشارات والتدريب',
-    description: 'منذ أكثر من 25 عاماً ونحن نبني الكفاءات ونطور المؤسسات. نجمع بين الخبرة العميقة والابتكار الرقمي لنقدم حلولاً تدريبية واستشارية تُحدث فرقاً حقيقياً في مسيرة نجاحكم.',
+    companyName: '   رحلة 15 عاما من التميز والرياده',
+    description: `انطلقت Arabtec من إيمان عميق بأن الاستثمار في الإنسان هو أساس النهضة فقدّمنا للسوق السعودي والمنطقة برامج تدريبية وحلولاً استشارية متقدمة ساهمت في تأهيل آلاف الكوادر ودعم رؤية المملكة 2030
+نعمل اليوم مع كبرى الجهات الحكومية والقطاع الخاص لتقديم برامج معتمدة دولياً تواكب أحدث المعايير المهنية وتُحدث فرقاً ملموساً في الأداء المؤسسي.`,
     pill1: 'تدريب احترافي',
     pill2: 'استشارات متخصصة',
     pill3: 'تقنيات الميتافيرس',
@@ -60,9 +61,10 @@ const arTranslations = {
     stat3Label: 'مدرب معتمد',
     stat4Label: 'تقييم إيجابي',
     visionTitle: 'رؤيتنا',
-visionText: "أن نكون الشريك الاستراتيجي الأكثر موثوقية للمؤسسات الحكومية والشركات الرائدة في قيادة التحول وتحقيق أثر مستدام قابل للقياس." ,
+visionText: "أن نكون الخيار الأول للتدريب والاستشارات في المملكة وأن نُسهم بفاعلية في تحقيق رؤية 2030. " ,
    missionTitle: 'رسالتنا',
-missionText: "نُمكّن المؤسسات من تحقيق نتائج استثنائية عبر استشارات استراتيجية، وتحول رقمي متقدم، وبناء قدرات قيادية مستدامة.",    partnersBadge: '🤝 شركاؤنا',
+missionText: " تقديم خدمات تدريب واستشارات احترافية ترتقي بالكفاءات والمؤسسات عبر حلول مبتكرة ومنهجية تطبيقية.", 
+   partnersBadge: '🤝 شركاؤنا',
     partnersTitle: 'عملاؤنا وشركاؤنا في',
     partnersTitleHighlight: 'النجاح',
   },
@@ -302,8 +304,8 @@ const enTranslations = {
     services: 'Services',
     contact: 'Contact ',
     startNow: 'Request consulation',
-    companyName: 'Afak Al Tamayuz ',
-    companySlogan: 'Consulting & Training',
+    companyName: 'Arabian Tech ',
+    companySlogan: 'Training Center',
   },
   
   // Hero Section
@@ -341,8 +343,9 @@ const enTranslations = {
     title1: 'Creating',
     titleHighlight: 'Excellence',
     title2: 'Together',
-    companyName: 'ATC Excellence for Consulting and Training',
-    description: 'For over 25 years, we have been building competencies and developing organizations. We combine deep expertise with digital innovation to deliver training and consulting solutions that make a real difference in your success journey.',
+    companyName: '15 Years of Excellence & Leadership',
+    description: `Arabtec was founded on the belief that investing in people is the foundation of progress We have delivered advanced training and consulting solutions across Saudi Arabia and the region qualifying thousands of professionals and supporting Vision 2030
+Today we partner with major government entities and private-sector leaders to deliver internationally accredited programs that drive measurable organizational performance.`,
     pill1: 'Professional Training',
     pill2: 'Specialized Consulting',
     pill3: 'Metaverse Technologies',
@@ -352,8 +355,9 @@ const enTranslations = {
     stat3Label: 'Certified Trainers',
     stat4Label: 'Positive Rating',
     visionTitle: 'Our Vision',
-visionText: "To be the most reliable strategic partner for government institutions and leading companies in driving transformation and achieving a measurable, sustainable impact.",    missionTitle: 'Our Mission',
-    missionText: 'We empower institutions to achieve exceptional results through strategic consulting, advanced digital transformation, and building sustainable leadership capabilities.',
+visionText: "To be the first choice for training and consulting in Saudi Arabia and a meaningful contributor to Vision 2030.",   
+ missionTitle: 'Our Mission',
+    missionText: 'To deliver professional training and consulting that elevates people and organizations through innovative, hands-on solutions.',
     partnersBadge: '🤝 Our Partners',
     partnersTitle: 'Our clients and Partners in',
     partnersTitleHighlight: 'Success',

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Layout from '@/components/layout/Layout';
 import Partners3DSlider from '@/components/partners/Partners3DSlider';
 import { Users, BookOpen, Award, Star, MessageCircle } from 'lucide-react';
-import heroMeeting from '@/assets/about-team.jpg';
+import heroMeeting from '@/assets/pho1.jpg';
 
 // Counter animation component
 const AnimatedCounter = ({ end, suffix = '' }: { end: number; suffix?: string }) => {

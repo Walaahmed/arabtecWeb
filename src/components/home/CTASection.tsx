@@ -103,7 +103,7 @@ const CTASection = () => {
             size="xl"
             asChild
             className="
-              bg-gradient-to-b from-[#d6ad55] to-[#b6892e]
+              bg-gradient-to-b from-[#27565E] to-[#27565E]
               text-white font-semibold
               px-10 py-6 rounded-xl
               shadow-[0_10px_30px_rgba(182,137,46,0.35)]

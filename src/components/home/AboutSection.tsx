@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { CheckCircle, Users, Award, Star, Target, MessageCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import aboutTeam from '@/assets/about-team.jpg';
+import aboutTeam from '@/assets/pho1.jpg';
 
 const AboutSection = () => {
   const { t, i18n } = useTranslation();
