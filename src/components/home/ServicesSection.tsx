@@ -319,10 +319,6 @@ const ServicesSection = () => {
     },
   ];
 
-  // اللون الكموني (أخضر زيتوني)
-  const cuminGreen = '#6B8E23';
-  const cuminDark = '#556B2F';
-
   return (
     <section ref={sectionRef} className="section-padding bg-white relative overflow-hidden border-y border-border/30">
       <div className="container-custom relative z-10">
@@ -383,13 +379,13 @@ const ServicesSection = () => {
               }}
               className="group perspective-1000"
             >
-              <div className="relative bg-white border border-border/50 rounded-3xl overflow-hidden hover:border-[#6B8E23]/30 hover:shadow-strong transition-all duration-500 h-full flex flex-col">
-                {/* Header - اللون الكموني */}
-                <div className="bg-[#6B8E23] p-6 flex items-center gap-4">
+              <div className="relative bg-white border border-border/50 rounded-3xl overflow-hidden hover:border-[#d6ad55]/30 hover:shadow-strong transition-all duration-500 h-full flex flex-col">
+                {/* Title Header - changed to #27565E */}
+                <div className="bg-[#27565E] p-6 flex items-center gap-4">
                   <motion.div 
                     whileHover={{ rotate: [0, -10, 10, 0], scale: 1.1 }}
                     transition={{ duration: 0.5 }}
-                    className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#6B8E23] to-[#556B2F] flex items-center justify-center shadow-lg"
+                    className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#27565E] to-[#1e4249] flex items-center justify-center shadow-lg"
                   >
                     <service.icon className="w-7 h-7 text-white" />
                   </motion.div>
@@ -400,12 +396,10 @@ const ServicesSection = () => {
 
                 {/* Card Content */}
                 <div className="relative z-10 flex flex-col flex-1 p-6 bg-gradient-to-br from-white to-blue-50/50">
-                  {/* Description */}
                   <p className="text-muted-foreground leading-relaxed mb-6 mt-2">
                     {service.description}
                   </p>
 
-                  {/* Features List */}
                   <ul className="space-y-3 mb-8 flex-1">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center gap-3 text-foreground/80">
@@ -415,28 +409,28 @@ const ServicesSection = () => {
                     ))}
                   </ul>
 
-                  {/* Button - يبقى كما هو #27565E */}
+                  {/* Button - gold background, dark green text & arrow */}
                   <Link
                     to={`/services/${service.slug}`}
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#27565E] to-[#27565E] text-white font-medium hover:brightness-110 transition-all duration-300"
+                    className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl shadow-md bg-[#d6ad55] text-[#27565E] font-medium hover:bg-[#c49c3e] transition-all duration-300"
                   >
                     <span>{service.buttonText}</span>
                     <motion.div
                       animate={{ x: isRTL ? [0, -5, 0] : [0, 5, 0] }}
                       transition={{ duration: 1.5, repeat: Infinity }}
                     >
-                      <ArrowIcon className="w-5 h-5" />
+                      <ArrowIcon className="w-5 h-5 text-[#27565E]" />
                     </motion.div>
                   </Link>
                 </div>
 
-                {/* Decorative line - كموني */}
+                {/* Decorative Line - gold to match button */}
                 <motion.div
                   initial={{ scaleX: 0 }}
                   whileInView={{ scaleX: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.3 + index * 0.1, duration: 0.4 }}
-                  className={`absolute bottom-0 left-0 right-0 h-1 bg-[#6B8E23] ${isRTL ? 'origin-right' : 'origin-left'}`}
+                  className={`absolute bottom-0 left-0 right-0 h-1 bg-[#d6ad55] ${isRTL ? 'origin-right' : 'origin-left'}`}
                 />
               </div>
             </motion.div>

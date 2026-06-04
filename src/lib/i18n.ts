@@ -174,11 +174,11 @@ missionText: " تقديم خدمات تدريب واستشارات احتراف�
     badge: 'الأسئلة الشائعة',
     title: 'أسئلة',
     titleHighlight: 'متكررة',
-    q1: 'ما الخدمات التي تقدمها ATC؟',
-    a1: 'تقدّم ATC خدمات الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي وبناء القدرات للجهات الحكومية والمؤسسات.',
-    q2: 'هل تعمل ATC مع الجهات الحكومية؟',
-    a2: 'نعم، تعمل ATC مع الجهات الحكومية وشبه الحكومية والمؤسسات العامة.',
-    q3: 'هل تقدم ATC حلولًا مخصصة؟',
+    q1: 'ما الخدمات التي تقدمها ArabaTec',
+    a1: 'تقدّم ArabaTec خدمات الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي وبناء القدرات للجهات الحكومية والمؤسسات.',
+    q2: 'هل تعمل ArabaTec مع الجهات الحكومية؟',
+    a2: 'نعم، تعمل ArabaTec مع الجهات الحكومية وشبه الحكومية والمؤسسات العامة.',
+    q3: 'هل تقدم ArabaTec حلولًا مخصصة؟',
     a3: 'نعم، يتم تصميم جميع الخدمات وفقًا لاحتياجات وأهداف كل جهة.',
   },
   
@@ -186,14 +186,14 @@ missionText: " تقديم خدمات تدريب واستشارات احتراف�
   cta: {
     title: 'هل ترغبون في مناقشة',
     titleHighlight: 'احتياجاتكم المؤسسية؟',
-    description: 'يسعد فريق ATC الاستشاري بالتواصل معكم ودراسة أفضل الحلول التي تدعم تحقيق أهدافكم',
+    description: 'يسعد فريق ArabaTec الاستشاري بالتواصل معكم ودراسة أفضل الحلول التي تدعم تحقيق أهدافكم',
     button: 'طلب استشارة',
   },
   
   // Book Consultation Page
   bookConsultation: {
     title: 'حجز استشارة',
-    description: 'احجز استشارة مع ATC للاستشارات لمناقشة احتياجات مؤسستكم واستكشاف حلول استشارية، وتحول رقمي، وبرامج تدريبية مصممة خصيصًا لدعم الأداء المؤسسي وتحقيق نتائج مستدامة.',
+    description: 'احجز استشارة مع ArabaTec للاستشارات لمناقشة احتياجات مؤسستكم واستكشاف حلول استشارية، وتحول رقمي، وبرامج تدريبية مصممة خصيصًا لدعم الأداء المؤسسي وتحقيق نتائج مستدامة.',
     teamDescription: 'يعمل فريقنا الاستشاري عن قرب مع القيادات وصنّاع القرار لفهم التحديات، وتحديد الأولويات، وتقديم توصيات عملية قائمة على أفضل الممارسات.',
     whatIncluded: 'ماذا تتضمن الاستشارة؟',
     duringSession: 'خلال جلسة الاستشارة، سيتم:',
@@ -323,7 +323,7 @@ const enTranslations = {
   // About Section
   about: {
     badge: 'About Us',
-    title: 'ATC Consulting',
+    title: 'ArabaTec Consulting',
     subtitle: 'Your Partner in Institutional Success',
     description: 'ATC Consulting is a specialized consulting and institutional development company providing institutional consulting, digital transformation, and executive training services for government entities and organizations.',
     feature1: 'Institutional & Strategic Consulting',

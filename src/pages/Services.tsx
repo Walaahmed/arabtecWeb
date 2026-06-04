@@ -319,10 +319,6 @@ const Services = () => {
   const isRTL = i18n.language === 'ar';
   const ArrowIcon = isRTL ? ArrowLeft : ArrowRight;
 
-  // الألوان
-  const cuminGreen = '#6B8E23'; // أخضر كموني للهيدر
-  const buttonGreen = '#27565E'; // أخضر غامق للأزرار
-
   const services = [
     {
       icon: Building2,
@@ -370,11 +366,10 @@ const Services = () => {
 
   return (
     <Layout>
-      {/* Hero Section - تم التعديل */}
+      {/* Hero Section */}
       <section className="pt-40 pb-16 bg-gradient-to-br from-white via-blue-50/30 to-white relative overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
-            {/* Content */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -402,29 +397,12 @@ const Services = () => {
                 }
               </motion.p>
             </motion.div>
-            {/* WhatsApp Floating Icon */}
-            <motion.a
-              href={`https://wa.me/966532891000?text=${encodeURIComponent(
-                isRTL 
-                  ? 'السلام عليكم، أود الاستفسار عن خدماتكم '
-                  : 'Hello, I would like to inquire about  services'
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              initial={{ opacity: 0, scale: 0 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.5, duration: 0.3 }}
-              className="fixed bottom-6 left-6 z-50 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300"
-            >
-              <MessageCircle className="w-6 h-6 text-white" />
-              <span className="sr-only">{isRTL ? 'تواصل عبر واتساب' : 'Contact via WhatsApp'}</span>
-            </motion.a>
-            {/* Image */}
+
             <motion.div
               initial={{ opacity: 0, x: isRTL ? -30 : 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className={`relative mt-8 ${isRTL ? '' : 'order-2'}`} 
+              className={`relative mt-8 ${isRTL ? '' : 'order-2'}`}
             >
               <div className="relative rounded-3xl overflow-hidden shadow-strong">
                 <img 
@@ -439,7 +417,7 @@ const Services = () => {
         </div>
       </section>
 
-      {/* Services Grid - تم التعديل */}
+      {/* Services Grid - مع التعديلات المطلوبة */}
       <section className="py-12 bg-gradient-to-br from-white via-blue-50/20 to-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -453,8 +431,8 @@ const Services = () => {
                 className="group"
               >
                 <div className="bg-white rounded-3xl overflow-hidden shadow-soft hover:shadow-medium transition-all duration-300 h-full flex flex-col border border-border/50 min-h-[420px]">
-                  {/* Title Header - اللون الكموني */}
-                  <div className="bg-[#6B8E23] p-6 flex items-center gap-4">
+                  {/* Title Header - الآن باللون الأخضر الغامق #27565E */}
+                  <div className="bg-[#27565E] p-6 flex items-center gap-4">
                     <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center">
                       <service.icon className="w-7 h-7 text-white" />
                     </div>
@@ -479,14 +457,14 @@ const Services = () => {
                       ))}
                     </ul>
 
-                    {/* CTA Button - لون الأزرار كما هو #27565E */}
+                    {/* CTA Button - باللون الذهبي (لون علامة الصح) والنص أخضر غامق */}
                     <div className="mt-auto">
                       <Link
                         to={`/services/${service.slug}`}
-                        className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#27565E] to-[#27565E] text-white font-medium hover:brightness-110 transition-all duration-300 group w-full"
+                        className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl shadow-md bg-[#d6ad55] text-[#27565E] font-medium hover:bg-[#c49c3e] hover:text-[#1e4249] transition-all duration-300 group w-full"
                       >
                         <span>{service.cta}</span>
-                        <ArrowIcon className={`w-4 h-4 transition-transform ${isRTL ? 'group-hover:-translate-x-1' : 'group-hover:translate-x-1'}`} />
+                        <ArrowIcon className={`w-4 h-4 text-[#27565E] transition-transform ${isRTL ? 'group-hover:-translate-x-1' : 'group-hover:translate-x-1'}`} />
                       </Link>
                     </div>
                   </div>
@@ -599,7 +577,7 @@ const Services = () => {
                   className="
                     border-2 border-primary text-primary font-semibold
                     px-8 py-6 rounded-xl
-                    hover:bg-primary hover:text-white
+                    hover:bg-[#27565E] hover:text-white
                     transition-all duration-300
                   "
                 >
@@ -612,6 +590,24 @@ const Services = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* WhatsApp Floating Icon */}
+      <motion.a
+        href={`https://wa.me/966532891000?text=${encodeURIComponent(
+          isRTL 
+            ? 'السلام عليكم، أود الاستفسار عن خدماتكم '
+            : 'Hello, I would like to inquire about services'
+        )}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.5, duration: 0.3 }}
+        className="fixed bottom-6 left-6 z-50 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300"
+      >
+        <MessageCircle className="w-6 h-6 text-white" />
+        <span className="sr-only">{isRTL ? 'تواصل عبر واتساب' : 'Contact via WhatsApp'}</span>
+      </motion.a>
     </Layout>
   );
 };

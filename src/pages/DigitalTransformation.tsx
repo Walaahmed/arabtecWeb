@@ -143,12 +143,7 @@ const DigitalTransformation = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.6 }}
               >
-                {/* <Button size="lg" asChild className="group shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#d6ad55] to-[#b6892e] text-white font-medium hover:brightness-110 transition-all duration-300">
-                  <Link to="/contact" className="flex items-center gap-2">
-                    <span>{isRTL ? '👉 تحدث مع مستشار التحول الرقمي' : '👉 Talk to a Digital Transformation Consultant'}</span>
-                    <ArrowIcon className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
-                  </Link>
-                </Button> */}
+              
               </motion.div>
             </motion.div>
 
@@ -246,12 +241,12 @@ const DigitalTransformation = () => {
             transition={{ delay: 0.4 }}
             className="text-center mt-12"
           >
-            <Button size="lg" asChild className="group shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#d6ad55] to-[#b6892e] text-white font-medium hover:brightness-110 transition-all duration-300">
+            {/* <Button size="lg" asChild className="group shadow-[0_8px_25px_rgba(0,0,0,0.3)] bg-gradient-to-b from-[#d6ad55] to-[#b6892e] text-white font-medium hover:brightness-110 transition-all duration-300">
                 <Link to="/book-consultation?source=digital" className="flex items-center gap-2">
                 <span>{isRTL ? 'ابدأ رحلة التحول الرقمي' : 'Start Your Digital Transformation Journey'}</span>
                 <ArrowIcon className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
-            </Button>
+            </Button> */}
           </motion.div>
         </div>
       </section>
@@ -350,7 +345,7 @@ const DigitalTransformation = () => {
                 size="xl"
                 asChild
                 className="
-                  bg-gradient-to-b from-[#d6ad55] to-[#b6892e]
+                  bg-gradient-to-b from-[#27565E] to-[#27565E]
                   text-white font-semibold
                   px-10 py-6 rounded-xl
                   shadow-[0_10px_30px_rgba(182,137,46,0.35)]
