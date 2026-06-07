@@ -65,7 +65,7 @@ const HeroSection = () => {
           >
             {/* Badge */}
             <motion.div variants={itemVariants}>
-              <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent/15 text-accent border border-accent/25 font-medium backdrop-blur-sm mb-8">
+              <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent/16 text-[#c49c3e] border border-accent/25 font-large backdrop-blur-sm mb-8">
                 <Sparkles className="w-4 h-4 animate-pulse-soft" />
                 <span className="text-sm">{t('hero.badge')}</span>
               </span>
@@ -142,17 +142,17 @@ const HeroSection = () => {
     </div>
     
     {/* Stats Badge فقط - إحذف الدوائر التانية */}
-    <motion.div
-      initial={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ delay: 0.8, duration: 0.5 }}
-      className={`absolute -bottom-6 ${isRTL ? '-right-6' : '-left-6'} bg-white rounded-xl shadow-strong p-4 hidden md:block border border-border`}
-    >
-      <div className="text-center">
-        <div className="text-2xl font-bold text-primary">25+</div>
-        <div className="text-sm text-muted-foreground">{t('hero.yearsExperience')}</div>
-      </div>
-    </motion.div>
+   <motion.div
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ delay: 0.8, duration: 0.5 }}
+  className={`absolute -bottom-6 ${isRTL ? '-right-6' : '-left-6'} rounded-xl shadow-strong p-4 hidden md:block border border-gray-500 bg-[#27565E]`}
+>
+  <div className="text-center">
+    <div className="text-2xl font-bold text-gray-300">25+</div>
+    <div className="text-sm text-gray-400">{t('hero.yearsExperience')}</div>
+  </div>
+</motion.div>
   </div>
 </motion.div>
         </div>

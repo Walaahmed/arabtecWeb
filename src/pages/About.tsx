@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Layout from '@/components/layout/Layout';
 import Partners3DSlider from '@/components/partners/Partners3DSlider';
 import { Users, BookOpen, Award, Star, MessageCircle } from 'lucide-react';
-import heroMeeting from '@/assets/pho1.jpg';
+import heroMeeting from '@/assets/about2.png';
 
 // Counter animation component
 const AnimatedCounter = ({ end, suffix = '' }: { end: number; suffix?: string }) => {
@@ -179,17 +179,17 @@ const About = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent" />
     </div>
     
-    <motion.div
-      initial={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ delay: 0.8, duration: 0.5 }}
-      className={`absolute -bottom-6 ${isRTL ? '-right-6' : '-left-6'} bg-white rounded-xl shadow-strong p-4 hidden md:block border border-border`}
-    >
-      <div className="text-center">
-        <div className="text-2xl font-bold text-primary">25+</div>
-        <div className="text-sm text-muted-foreground">{t('hero.yearsExperience')}</div>
-      </div>
-    </motion.div>
+   <motion.div
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ delay: 0.8, duration: 0.5 }}
+  className={`absolute -bottom-6 ${isRTL ? '-right-6' : '-left-6'} rounded-xl shadow-strong p-4 hidden md:block border border-gray-500 bg-[#27565E]`}
+>
+  <div className="text-center">
+    <div className="text-2xl font-bold text-gray-300">25+</div>
+    <div className="text-sm text-gray-400">{t('hero.yearsExperience')}</div>
+  </div>
+</motion.div>
   </div>
 </motion.div>
           </div>
@@ -197,7 +197,7 @@ const About = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-background -mt-10 relative z-10">
+      {/* <section className="py-20 bg-background -mt-10 relative z-10">
         <div className="container-custom">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {stats.map((stat, index) => (
@@ -220,7 +220,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Vision & Mission */}
       <section className="section-padding bg-gradient-subtle">
@@ -233,7 +233,7 @@ const About = () => {
               transition={{ duration: 0.6 }}
               className="bg-card rounded-3xl p-8 md:p-10 shadow-soft"
             >
-              <div className="w-16 h-16 rounded-xl bg-gradient-primary flex items-center justify-center mb-6">
+              <div className="w-16 h-16 rounded-xl bg-[#27565E] flex items-center justify-center mb-6">
                 <svg className="w-8 h-8 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />

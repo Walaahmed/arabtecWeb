@@ -7,12 +7,12 @@ const AboutSection = () => {
   const { t, i18n } = useTranslation();
   const isRTL = i18n.language === 'ar';
 
-  const stats = [
-    { icon: Users, value: '5000+', label: t('about.stat1') },
-    { icon: Award, value: '500+', label: t('about.stat2') },
-    { icon: Star, value: '98%', label: t('about.stat3') },
-    { icon: Target, value: '25+', label: t('about.stat4') },
-  ];
+  // const stats = [
+  //   { icon: Users, value: '5000+', label: t('about.stat1') },
+  //   { icon: Award, value: '500+', label: t('about.stat2') },
+  //   { icon: Star, value: '98%', label: t('about.stat3') },
+  //   { icon: Target, value: '25+', label: t('about.stat4') },
+  // ];
 
   const features = [
     t('about.feature1'),
@@ -45,18 +45,17 @@ const AboutSection = () => {
     </div>
     
     {/* Experience Badge فقط - إحذف الإطار الأصفر */}
-    <motion.div
-      initial={{ opacity: 0, scale: 0.8 }}
-      whileInView={{ opacity: 1, scale: 1 }}
-      viewport={{ once: true }}
-      transition={{ delay: 0.5, duration: 0.5 }}
-      className={`absolute -bottom-8 ${isRTL ? '-left-8' : '-right-8'} bg-primary rounded-xl shadow-strong p-5 hidden md:block`}
-    >
-      <div className="text-center text-primary-foreground">
-        <div className="text-3xl font-bold">25+</div>
-        <div className="text-sm opacity-80">{t('about.yearsExcellence')}</div>
-      </div>
-    </motion.div>
+<motion.div
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ delay: 0.8, duration: 0.5 }}
+  className={`absolute -bottom-6 ${isRTL ? '-left-8' : '-right-8'} rounded-xl shadow-strong p-4 hidden md:block border border-gray-500 bg-[#27565E]`}
+>
+  <div className="text-center">
+    <div className="text-2xl font-bold text-gray-300">25+</div>
+    <div className="text-sm text-gray-400">{t('hero.yearsExperience')}</div>
+  </div>
+</motion.div>
   </div>
 </motion.div>
 
@@ -120,7 +119,7 @@ const AboutSection = () => {
         <span className="sr-only">{isRTL ? 'تواصل عبر واتساب' : 'Contact via WhatsApp'}</span>
       </motion.a>
             {/* Stats Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {stats.map((stat, index) => (
                 <motion.div
                   key={stat.label}
@@ -135,7 +134,7 @@ const AboutSection = () => {
                   <div className="text-xs text-muted-foreground">{stat.label}</div>
                 </motion.div>
               ))}
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

@@ -10,8 +10,8 @@ const arTranslations = {
     services: 'خدماتنا',
     contact: 'تواصل معنا',
     startNow: 'طلب استشارة',
-    companyName: ' مركز التقنية',
-    companySlogan: ' العربية للتدريب',
+    companyName: '  التقنية العربية' ,
+    companySlogan: ' للاستشارات والتدريب',
   },
   
   // Hero Section
@@ -29,17 +29,17 @@ const arTranslations = {
   // About Section
   about: {
     badge: 'من نحن',
-    title: 'ARABTEC للاستشارات',
+    title: 'اربتك للاستشارات',
     subtitle: 'شريككم في النجاح المؤسسي',
-    description: 'ARABTEC للاستشارات هي شركة استشارات وتطوير مؤسسي متخصصة في تقديم الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي للجهات الحكومية والمؤسسات.',
+    description: 'اربتك للاستشارات هي شركة استشارات وتطوير مؤسسي متخصصة في تقديم الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي للجهات الحكومية والمؤسسات.',
     feature1: 'الاستشارات المؤسسية والاستراتيجية',
     feature2: 'التحول الرقمي والاستشارات التقنية',
     feature3: 'التدريب التنفيذي وبناء القدرات',
-    feature4: 'دعم الجهات الحكومية والمؤسسات',
-    stat1: 'متدرب ومتدربة',
-    stat2: 'دورة تدريبية',
-    stat3: 'تقييم إيجابي',
-    stat4: 'عام من الخبرة',
+    feature4: ' حلول التوام الرقمي والذكاء الاصطناعي ',
+    // stat1: 'متدرب ومتدربة',
+    // stat2: 'دورة تدريبية',
+    // stat3: 'تقييم إيجابي',
+    // stat4: 'عام من الخبرة',
     yearsExcellence: 'عام من التميز',
   },
   
@@ -49,9 +49,9 @@ const arTranslations = {
     title1: 'نصنع',
     titleHighlight: 'التميز',
     title2: 'معاً',
-    companyName: '   رحلة 15 عاما من التميز والرياده',
-    description: `انطلقت Arabtec من إيمان عميق بأن الاستثمار في الإنسان هو أساس النهضة فقدّمنا للسوق السعودي والمنطقة برامج تدريبية وحلولاً استشارية متقدمة ساهمت في تأهيل آلاف الكوادر ودعم رؤية المملكة 2030
-نعمل اليوم مع كبرى الجهات الحكومية والقطاع الخاص لتقديم برامج معتمدة دولياً تواكب أحدث المعايير المهنية وتُحدث فرقاً ملموساً في الأداء المؤسسي.`,
+    companyName: '   رحلة 25 عاما من الريادة و الانجاز',
+    description: `انطلقت Arabtec من إيمانٍ عميق بأن الاستثمار في الإنسان هو أساس النهضة، وقدّمت للسوقين العربي والعالمي حلولًا استشارية متقدمة وبرامج تدريبية أسهمت في تأهيل آلاف الكوادر وتعزيز القدرات المؤسسية، بما يواكب مستهدفات رؤية المملكة 2030.
+نعمل اليوم مع كبرى الجهات الحكومية والشركاء الدوليين لتقديم برامج معتمدة عالميًا، تواكب أحدث المعايير المهنية، وتُحدث أثرًا ملموسًا في رفع كفاءة الأداء المؤسسي وصناعة التميز المستدام`,
     pill1: 'تدريب احترافي',
     pill2: 'استشارات متخصصة',
     pill3: 'تقنيات الميتافيرس',
@@ -304,8 +304,8 @@ const enTranslations = {
     services: 'Services',
     contact: 'Contact ',
     startNow: 'Request consulation',
-    companyName: 'Arabian Tech ',
-    companySlogan: 'Training Center',
+    companyName: 'Arabian Tech  ',
+    companySlogan: 'Consulting & Training',
   },
   
   // Hero Section
@@ -325,15 +325,15 @@ const enTranslations = {
     badge: 'About Us',
     title: 'ArabaTec Consulting',
     subtitle: 'Your Partner in Institutional Success',
-    description: 'ATC Consulting is a specialized consulting and institutional development company providing institutional consulting, digital transformation, and executive training services for government entities and organizations.',
+    description: 'ArabaTec Consulting is a specialized consulting and institutional development company providing institutional consulting, digital transformation, and executive training services for government entities and organizations.',
     feature1: 'Institutional & Strategic Consulting',
     feature2: 'Digital Transformation & Tech Consulting',
     feature3: 'Executive Training & Capacity Building',
-    feature4: 'Government & Institutional Support',
-    stat1: 'Trainees',
-    stat2: 'Training Courses',
-    stat3: 'Positive Rating',
-    stat4: 'Years of Experience',
+    feature4: 'Digital Twin Solutions and Artificial Intelligence',
+    // stat1: 'Trainees',
+    // stat2: 'Training Courses',
+    // stat3: 'Positive Rating',
+    // stat4: 'Years of Experience',
     yearsExcellence: 'Years of Excellence',
   },
   
@@ -343,9 +343,12 @@ const enTranslations = {
     title1: 'Creating',
     titleHighlight: 'Excellence',
     title2: 'Together',
-    companyName: '15 Years of Excellence & Leadership',
-    description: `Arabtec was founded on the belief that investing in people is the foundation of progress We have delivered advanced training and consulting solutions across Saudi Arabia and the region qualifying thousands of professionals and supporting Vision 2030
-Today we partner with major government entities and private-sector leaders to deliver internationally accredited programs that drive measurable organizational performance.`,
+    companyName: '25 Years of Leadership & achievement',
+    description: `Arabtec started out of a deep belief that investing in humans is the basis of the renaissance and provided advanced advisory solutions
+    and training programs to the Arab and international markets that contributed to the rehabilitation of thousands of cardres and the strengthening of institutional
+    capabilities, in line with the objectives of the vision. Kingdom 2030. Today,we are working with major goverment agencies and international partners to provide globally
+    accredited programs that keep pace with the latest professional standers, and make a significant impact in raising the efficiency of institutional performance amnd the 
+    sustainable excellence industry.`,
     pill1: 'Professional Training',
     pill2: 'Specialized Consulting',
     pill3: 'Metaverse Technologies',
