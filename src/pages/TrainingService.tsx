@@ -700,7 +700,7 @@ const TrainingService = () => {
                   <span className="text-sm font-medium">{isRTL ? 'مميزاتنا' : 'Our Advantages'}</span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                  {isRTL ? 'لماذا تختار ATC للتدريب؟' : 'Why Choose ATC for Training?'}
+                  {isRTL ? 'لماذا تختار أربتك للتدريب؟' : 'Why Choose Arabtec for Training?'}
                 </h2>
               </div>
               

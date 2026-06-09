@@ -396,7 +396,7 @@ const Sectors = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6"
             >
               {isRTL ? 'القطاعات التي نخدمها' : 'Sectors We Serve'}
             </motion.h1>
@@ -404,11 +404,11 @@ const Sectors = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
-              className="text-lg md:text-xl text-gray-600 leading-relaxed"
+              className="text-base md:text-lg text-gray-600 leading-relaxed"
             >
               {isRTL 
-                ? 'تعمل اربتك للاستشارات بالشراكة مع جهات حكومية ومؤسسات خاصة في القطاعات الأكثر تأثيرًا، لدعمها في صياغة الاستراتيجيات، وتسريع التحول الرقمي، وتعزيز الأداء المؤسسي، وبناء القدرات القيادية المستقبلية عبر حلول عملية قائمة على البيانات والذكاء الاصطناعي.'
-                : 'Arabatec Consulting works in partnership with government entities and private institutions in the most impactful sectors, supporting them in strategy formulation, accelerating digital transformation, enhancing institutional performance, and building future leadership capabilities through practical data-driven and AI-based solutions.'
+                ? 'تعمل أربتك للاستشارات بالشراكة مع جهات حكومية ومؤسسات خاصة في القطاعات الأكثر تأثيرًا، لدعمها في صياغة الاستراتيجيات، وتسريع التحول الرقمي، وتعزيز الأداء المؤسسي، وبناء القدرات القيادية المستقبلية عبر حلول عملية قائمة على البيانات والذكاء الاصطناعي.'
+                : 'Arabtec Consulting works in partnership with government entities and private institutions in the most impactful sectors, supporting them in strategy formulation, accelerating digital transformation, enhancing institutional performance, and building future leadership capabilities through practical data-driven and AI-based solutions.'
               }
             </motion.p>
           </div>
@@ -473,7 +473,7 @@ const Sectors = () => {
       </section>
 
       {/* Statistics Section - updated colors to green */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -516,7 +516,7 @@ const Sectors = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* WhatsApp Floating Icon */}
       <motion.a

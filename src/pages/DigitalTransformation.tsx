@@ -593,7 +593,7 @@ const DigitalTransformation = () => {
               className="space-y-6"
             >
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                {isRTL ? 'لماذا التحول الرقمي مع ATC؟' : 'Why Digital Transformation with ATC?'}
+                {isRTL ? 'لماذا التحول الرقمي مع أربتك' : 'Why Digital Transformation with Arabtec?'}
               </h2>
               <ul className="space-y-4">
                 {[

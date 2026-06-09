@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
           
           {/* Vision Statement */}
-          <p className="text-white/90 text-sm sm:text-base md:text-lg leading-relaxed font-medium max-w-3xl">
+          <p className="text-[#B9B6BC] text-sm sm:text-base md:text-lg leading-relaxed font-medium max-w-3xl">
             {t('footer.companyDescription')}
           </p>
         </motion.div>
@@ -105,7 +105,7 @@ const Footer = () => {
         >
           {/* Quick Links */}
           <motion.div variants={itemVariants} className="flex flex-col items-center md:items-start">
-            <h4 className="text-lg font-display font-bold mb-6 relative inline-block text-white">
+            <h4 className="text-lg font-display font-bold mb-6 relative inline-block text-[#B9B6BC]">
               {t('footer.quickLinks')}
               <span className={`absolute -bottom-2 ${isRTL ? 'right-0' : 'left-0'} w-12 h-1 bg-[#BF9F00] rounded-full`} />
             </h4>
@@ -114,7 +114,7 @@ const Footer = () => {
                 <li key={link.path}>
                   <Link
                     to={link.path}
-                    className="text-white/80 hover:text-[#BF9F00] transition-colors duration-300 flex items-center justify-center md:justify-start gap-2 group text-sm sm:text-base font-semibold"
+                    className="text-[#B9B6BC] hover:text-[#BF9F00] transition-colors duration-300 flex items-center justify-center md:justify-start gap-2 group text-sm sm:text-base font-semibold"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-[#BF9F00]/50 group-hover:bg-[#BF9F00] transition-colors" />
                     {link.name}
@@ -125,13 +125,13 @@ const Footer = () => {
           </motion.div>
           {/* Services */}
           <motion.div variants={itemVariants} className="flex flex-col items-center md:items-start">
-            <h4 className="text-lg font-display font-bold mb-6 relative inline-block text-white">
+            <h4 className="text-lg font-display font-bold mb-6 relative inline-block text-[#B9B6BC]">
               {t('footer.ourServices')}
               <span className={`absolute -bottom-2 ${isRTL ? 'right-0' : 'left-0'} w-12 h-1 bg-[#BF9F00] rounded-full`} />
             </h4>
             <ul className="space-y-4 text-center md:text-start w-full">
               {[t('footer.service1'), t('footer.service2'), t('footer.service3'), t('footer.service4')].map((service) => (
-                <li key={service} className="text-white/80 flex items-center justify-center md:justify-start gap-2 text-sm sm:text-base font-semibold">
+                <li key={service} className="text-[#B9B6BC] flex items-center justify-center md:justify-start gap-2 text-sm sm:text-base font-semibold">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#BF9F00]/50" />
                   {service}
                 </li>
@@ -140,7 +140,7 @@ const Footer = () => {
           </motion.div>
           {/* Contact Info & Socials */}
           <motion.div variants={itemVariants} className="flex flex-col items-center md:items-start">
-            <h4 className="text-lg font-display font-bold mb-6 relative inline-block text-white">
+            <h4 className="text-lg font-display font-bold mb-6 relative inline-block text-[#B9B6BC]">
               {t('footer.contactUs')}
               <span className={`absolute -bottom-2 ${isRTL ? 'right-0' : 'left-0'} w-12 h-1 bg-[#BF9F00] rounded-full`} />
             </h4>
@@ -150,7 +150,7 @@ const Footer = () => {
                   <Phone className="w-4 h-4 text-[#BF9F00]" />
                 </div>
                 <div className="flex flex-col">
-                  <a href="tel:+966532891000" className="text-white/85 hover:text-[#BF9F00] transition-colors text-sm sm:text-base font-semibold" dir="ltr">
+                  <a href="tel:+966532891000" className="text-[#B9B6BC] hover:text-[#BF9F00] transition-colors text-sm sm:text-base font-semibold" dir="ltr">
                     +966 53 289 1000 
                   </a>
                   {/* <a href="tel:+966533092640" className="text-white/85 hover:text-[#BF9F00] transition-colors text-sm sm:text-base font-semibold" dir="ltr">
@@ -162,7 +162,7 @@ const Footer = () => {
                 <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
                   <Mail className="w-4 h-4 text-[#BF9F00]" />
                 </div>
-                <a href="mailto:Contact@arabtec.com" className="text-white/85 hover:text-[#BF9F00] transition-colors text-sm sm:text-base font-semibold">
+                <a href="mailto:Contact@arabtec.com" className="text-[#B9B6BC] hover:text-[#BF9F00] transition-colors text-sm sm:text-base font-semibold">
                   Contact@arabtec.com
                 </a>
               </li>
@@ -188,10 +188,10 @@ const Footer = () => {
       <div className="border-t border-white/10 relative z-20 mt-8 pt-8">
         <div className="container-custom">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-start">
-            <p className="text-white/60 text-xs sm:text-sm font-semibold">
+            <p className="text-[#B9B6BC] text-xs sm:text-sm font-semibold">
               {isRTL ? `© ${currentYear} ARABTEC جميع الحقوق محفوظة.` : `© ${currentYear} ARABTEC.SA. All Rights Reserved.`}
             </p>
-            <div className="flex items-center gap-6 text-xs sm:text-sm text-white/60 font-semibold">
+            <div className="flex items-center gap-6 text-xs sm:text-sm text-[#B9B6BC] font-semibold">
               <Link to="/privacy" className="hover:text-[#BF9F00] transition-colors">
                 {t('footer.privacy')}
               </Link>

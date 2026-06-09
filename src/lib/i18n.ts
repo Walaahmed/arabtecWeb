@@ -29,13 +29,13 @@ const arTranslations = {
   // About Section
   about: {
     badge: 'من نحن',
-    title: 'اربتك للاستشارات',
+    title: 'أربتك للاستشارات',
     subtitle: 'شريككم في النجاح المؤسسي',
-    description: 'اربتك للاستشارات هي شركة استشارات وتطوير مؤسسي متخصصة في تقديم الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي للجهات الحكومية والمؤسسات.',
+    description: 'أربتك للاستشارات هي شركة استشارات وتطوير مؤسسي متخصصة في تقديم الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي للجهات الحكومية والمؤسسات.',
     feature1: 'الاستشارات المؤسسية والاستراتيجية',
     feature2: 'التحول الرقمي والاستشارات التقنية',
     feature3: 'التدريب التنفيذي وبناء القدرات',
-    feature4: ' حلول التوام الرقمي والذكاء الاصطناعي ',
+    feature4: ' حلول التوأم الرقمي والذكاء الاصطناعي ',
     // stat1: 'متدرب ومتدربة',
     // stat2: 'دورة تدريبية',
     // stat3: 'تقييم إيجابي',
@@ -107,12 +107,12 @@ missionText: " تقديم خدمات تدريب واستشارات احتراف�
   servicesPage: {
     badge: '✨ خدماتنا المتميزة',
     title: 'خدماتنا',
-    description: 'تقدّم ATC للاستشارات منظومة متكاملة من خدمات الاستشارات، والتحول الرقمي، والتدريب التنفيذي، المصمّمة لدعم الأداء المؤسسي وتحقيق نتائج مستدامة على المدى الطويل.',
+    description: 'تقدّم أربتك للاستشارات منظومة متكاملة من خدمات الاستشارات، والتحول الرقمي، والتدريب التنفيذي، المصمّمة لدعم الأداء المؤسسي وتحقيق نتائج مستدامة على المدى الطويل.',
     successfulProjects: 'مشروع ناجح',
     
     consulting: {
       title: 'خدمات الاستشارات',
-      description: 'تدعم خدمات الاستشارات لدى ATC المؤسسات في تطوير الاستراتيجيات، وتعزيز الحوكمة، وتحسين الأداء المؤسسي.',
+      description: 'تدعم خدمات الاستشارات لدى أربتك المؤسسات في تطوير الاستراتيجيات، وتعزيز الحوكمة، وتحسين الأداء المؤسسي.',
       feature1: 'الاستشارات المؤسسية والاستراتيجية',
       feature2: 'أطر الحوكمة وإدارة الأداء',
       feature3: 'الاستشارات التنظيمية وصياغة السياسات',
@@ -121,7 +121,7 @@ missionText: " تقديم خدمات تدريب واستشارات احتراف�
     },
     digital: {
       title: 'التحول الرقمي',
-      description: 'تدعم ATC مبادرات التحول الرقمي التي تسهم في تحسين جودة اتخاذ القرار، ورفع الكفاءة التشغيلية.',
+      description: 'تدعم أربتك مبادرات التحول الرقمي التي تسهم في تحسين جودة اتخاذ القرار، ورفع الكفاءة التشغيلية.',
       feature1: 'الاستراتيجية الرقمية والاستشارات التقنية',
       feature2: 'رقمنة العمليات والإجراءات',
       feature3: 'تمكين التقنيات الحديثة وحلول الذكاء الاصطناعي',
@@ -161,7 +161,7 @@ missionText: " تقديم خدمات تدريب واستشارات احتراف�
     badge: 'القطاعات التي نخدمها',
     title: 'نخدم مختلف',
     titleHighlight: 'القطاعات الحيوية',
-    subtitle: 'تقدّم ATC للاستشارات خدماتها الاستشارية والتدريبية لمجموعة واسعة من القطاعات الحيوية',
+    subtitle: 'تقدّم أربتك للاستشارات خدماتها الاستشارية والتدريبية لمجموعة واسعة من القطاعات الحيوية',
     sector1: 'الجهات الحكومية والهيئات العامة',
     sector2: 'قطاع الطاقة والبترول',
     sector3: 'القطاع المصرفي والمؤسسات المالية',
@@ -174,11 +174,11 @@ missionText: " تقديم خدمات تدريب واستشارات احتراف�
     badge: 'الأسئلة الشائعة',
     title: 'أسئلة',
     titleHighlight: 'متكررة',
-    q1: 'ما الخدمات التي تقدمها ArabaTec',
-    a1: 'تقدّم ArabaTec خدمات الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي وبناء القدرات للجهات الحكومية والمؤسسات.',
-    q2: 'هل تعمل ArabaTec مع الجهات الحكومية؟',
-    a2: 'نعم، تعمل ArabaTec مع الجهات الحكومية وشبه الحكومية والمؤسسات العامة.',
-    q3: 'هل تقدم ArabaTec حلولًا مخصصة؟',
+    q1: 'ما الخدمات التي تقدمها أربتك',
+    a1: 'تقدّم أربتك خدمات الاستشارات المؤسسية، والتحول الرقمي، والتدريب التنفيذي وبناء القدرات للجهات الحكومية والمؤسسات.',
+    q2: 'هل تعمل أربتك مع الجهات الحكومية؟',
+    a2: 'نعم، تعمل أربتك مع الجهات الحكومية وشبه الحكومية والمؤسسات العامة.',
+    q3: 'هل تقدم أربتك حلولًا مخصصة؟',
     a3: 'نعم، يتم تصميم جميع الخدمات وفقًا لاحتياجات وأهداف كل جهة.',
   },
   
@@ -186,14 +186,14 @@ missionText: " تقديم خدمات تدريب واستشارات احتراف�
   cta: {
     title: 'هل ترغبون في مناقشة',
     titleHighlight: 'احتياجاتكم المؤسسية؟',
-    description: 'يسعد فريق ArabaTec الاستشاري بالتواصل معكم ودراسة أفضل الحلول التي تدعم تحقيق أهدافكم',
+    description: 'يسعد فريق أربتك الاستشاري بالتواصل معكم ودراسة أفضل الحلول التي تدعم تحقيق أهدافكم',
     button: 'طلب استشارة',
   },
   
   // Book Consultation Page
   bookConsultation: {
     title: 'حجز استشارة',
-    description: 'احجز استشارة مع ArabaTec للاستشارات لمناقشة احتياجات مؤسستكم واستكشاف حلول استشارية، وتحول رقمي، وبرامج تدريبية مصممة خصيصًا لدعم الأداء المؤسسي وتحقيق نتائج مستدامة.',
+    description: 'احجز استشارة مع أربتك للاستشارات لمناقشة احتياجات مؤسستكم واستكشاف حلول استشارية، وتحول رقمي، وبرامج تدريبية مصممة خصيصًا لدعم الأداء المؤسسي وتحقيق نتائج مستدامة.',
     teamDescription: 'يعمل فريقنا الاستشاري عن قرب مع القيادات وصنّاع القرار لفهم التحديات، وتحديد الأولويات، وتقديم توصيات عملية قائمة على أفضل الممارسات.',
     whatIncluded: 'ماذا تتضمن الاستشارة؟',
     duringSession: 'خلال جلسة الاستشارة، سيتم:',
@@ -268,7 +268,7 @@ missionText: " تقديم خدمات تدريب واستشارات احتراف�
     newsletterDesc: 'اشترك في النشرة الإخبارية للحصول على آخر التحديثات والعروض المميزة',
     emailPlaceholder: 'البريد الإلكتروني',
     subscribe: 'اشترك',
-    companyName: 'ATC للاستشارات',
+    companyName: 'أربتك للاستشارات',
     companySlogan: 'للاستشارات والتدريب',
     companyDescription: 'شركة متخصصة في تقديم الاستشارات المؤسسية، ودعم التحول الرقمي، وبرامج التدريب التنفيذي للجهات الحكومية والمؤسسات، بما يعزز كفاءة الأداء ويدعم اتخاذ القرار المؤسسي.',
     quickLinks: 'روابط سريعة',
@@ -323,9 +323,9 @@ const enTranslations = {
   // About Section
   about: {
     badge: 'About Us',
-    title: 'ArabaTec Consulting',
+    title: 'ArabTec Consulting',
     subtitle: 'Your Partner in Institutional Success',
-    description: 'ArabaTec Consulting is a specialized consulting and institutional development company providing institutional consulting, digital transformation, and executive training services for government entities and organizations.',
+    description: 'ArabTec Consulting is a specialized consulting and institutional development company providing institutional consulting, digital transformation, and executive training services for government entities and organizations.',
     feature1: 'Institutional & Strategic Consulting',
     feature2: 'Digital Transformation & Tech Consulting',
     feature3: 'Executive Training & Capacity Building',
@@ -404,12 +404,12 @@ visionText: "To be the first choice for training and consulting in Saudi Arabia 
   servicesPage: {
     badge: '✨ Our Distinguished Services',
     title: 'Our Services',
-    description: 'ATC Consulting offers an integrated system of consulting, digital transformation, and executive training services designed to support institutional performance and achieve sustainable long-term results.',
+    description: 'ArabTec Consulting offers an integrated system of consulting, digital transformation, and executive training services designed to support institutional performance and achieve sustainable long-term results.',
     successfulProjects: 'Successful Projects',
     
     consulting: {
       title: 'Consulting Services',
-      description: 'ATC consulting services support organizations in developing strategies, enhancing governance, and improving institutional performance.',
+      description: 'Arabtec consulting services support organizations in developing strategies, enhancing governance, and improving institutional performance.',
       feature1: 'Institutional & Strategic Consulting',
       feature2: 'Governance & Performance Management Frameworks',
       feature3: 'Organizational Consulting & Policy Formulation',
@@ -418,7 +418,7 @@ visionText: "To be the first choice for training and consulting in Saudi Arabia 
     },
     digital: {
       title: 'Digital Transformation',
-      description: 'ATC supports digital transformation initiatives that contribute to improving decision-making quality and operational efficiency.',
+      description: 'ArabTec supports digital transformation initiatives that contribute to improving decision-making quality and operational efficiency.',
       feature1: 'Digital Strategy & Tech Consulting',
       feature2: 'Process & Procedure Digitization',
       feature3: 'Modern Technologies & AI Solutions',
@@ -458,7 +458,7 @@ visionText: "To be the first choice for training and consulting in Saudi Arabia 
     badge: 'Sectors We Serve',
     title: 'Serving Various',
     titleHighlight: 'Vital Sectors',
-    subtitle: 'ATC Consulting provides its consulting and training services to a wide range of vital sectors',
+    subtitle: 'Arabtec Consulting provides its consulting and training services to a wide range of vital sectors',
     sector1: 'Government Entities & Public Authorities',
     sector2: 'Energy & Petroleum Sector',
     sector3: 'Banking & Financial Institutions',
@@ -471,26 +471,26 @@ visionText: "To be the first choice for training and consulting in Saudi Arabia 
     badge: 'Frequently Asked Questions',
     title: 'Frequently',
     titleHighlight: 'Asked Questions',
-    q1: 'What services does ATC offer?',
-    a1: 'ATC provides institutional consulting, digital transformation, and executive training and capacity building services for government entities and organizations.',
-    q2: 'Does ATC work with government entities?',
-    a2: 'Yes, ATC works with government, semi-government, and public institutions.',
-    q3: 'Does ATC provide customized solutions?',
-    a3: 'Yes, all services are designed according to each entity\'s needs and goals.',
+    q1: 'What services does ArabTec offer?',
+    a1: 'ArabTec provides institutional consulting, digital transformation, and executive training and capacity building services for government entities and organizations.',
+    q2: 'Does ArabTec work with government entities?',
+    a2: 'Yes, ArabTec works with government, semi-government, and public institutions.',
+    q3: 'Does ArabTec provide customized solutions?',
+    a3: 'Yes, ArabTec services are designed according to each entity\'s needs and goals.',
   },
   
   // CTA Section
   cta: {
     title: 'Would You Like to Discuss',
     titleHighlight: 'Your Institutional Needs?',
-    description: 'The ATC consulting team is happy to connect with you and study the best solutions that support achieving your goals',
+    description: 'The ArabTec consulting team is happy to connect with you and study the best solutions that support achieving your goals',
     button: 'Request Consultation',
   },
   
   // Book Consultation Page
   bookConsultation: {
     title: 'Book a Consultation',
-    description: 'Book a consultation with ATC Consulting to discuss your organization\'s needs and explore consulting solutions, digital transformation, and training programs designed specifically to support institutional performance and achieve sustainable results.',
+    description: 'Book a consultation with ArabTec Consulting to discuss your organization\'s needs and explore consulting solutions, digital transformation, and training programs designed specifically to support institutional performance and achieve sustainable results.',
     teamDescription: 'Our consulting team works closely with leaders and decision-makers to understand challenges, identify priorities, and provide practical recommendations based on best practices.',
     whatIncluded: 'What Does the Consultation Include?',
     duringSession: 'During the consultation session:',
@@ -565,7 +565,7 @@ visionText: "To be the first choice for training and consulting in Saudi Arabia 
     newsletterDesc: 'Subscribe to our newsletter for the latest updates and special offers',
     emailPlaceholder: 'Email',
     subscribe: 'Subscribe',
-    companyName: 'ATC Consulting',
+    companyName: 'Arabtec Consulting',
     companySlogan: 'Consulting & Training',
     companyDescription: 'A specialized company providing institutional consulting, digital transformation support, and executive training programs for government entities and organizations, enhancing performance efficiency and supporting institutional decision-making.',
     quickLinks: 'Quick Links',

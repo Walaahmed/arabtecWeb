@@ -65,7 +65,7 @@ const HeroSection = () => {
           >
             {/* Badge */}
             <motion.div variants={itemVariants}>
-              <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent/16 text-[#c49c3e] border border-accent/25 font-large backdrop-blur-sm mb-8">
+              <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent/15 text-[#6A6A6A] border border-accent/25 font-large backdrop-blur-sm mb-8">
                 <Sparkles className="w-4 h-4 animate-pulse-soft" />
                 <span className="text-sm">{t('hero.badge')}</span>
               </span>

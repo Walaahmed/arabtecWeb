@@ -1085,7 +1085,7 @@ Our team will contact you within 24–48 hours.`
                               className="group/link"
                             >
                               <div className="flex items-center justify-between">
-                                <div className={`text-sm font-semibold truncate text-primary hover:text-primary/80 transition-colors duration-300`}>
+                                <div dir='ltr' className={`text-sm font-semibold truncate text-primary hover:text-primary/80 transition-colors duration-300`}>
                                   {item.value}
                                 </div>
                                 <Navigation className="w-3 h-3 text-primary opacity-0 group-hover/link:opacity-100 transition-opacity duration-300 flex-shrink-0 ml-1" />
@@ -1315,7 +1315,7 @@ Our team will contact you within 24–48 hours.`
                     }
                   </p>
                   <a 
-                    href="https://maps.app.goo.gl/UoDCtJeNiug39YZ1A?g_st=iw"
+                    href="https://maps.app.goo.gl/KHqDfAtFcn9Dsa4a6"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors text-sm font-medium"

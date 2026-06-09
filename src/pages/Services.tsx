@@ -392,8 +392,8 @@ const Services = () => {
                 className="text-lg md:text-xl text-gray-600 leading-normal"
               >
                 {isRTL 
-                  ? 'تقدّم ATC للاستشارات منظومة متكاملة من خدمات الاستشارات، والتحول الرقمي، والتدريب التنفيذي، المصمّمة لدعم الأداء المؤسسي وتحقيق نتائج مستدامة.'
-                  : 'ATC Consulting offers an integrated system of consulting, digital transformation, and executive training services designed to support institutional performance and achieve sustainable results.'
+                  ? 'تقدّم أربتك للاستشارات منظومة متكاملة من خدمات الاستشارات، والتحول الرقمي، والتدريب التنفيذي، المصمّمة لدعم الأداء المؤسسي وتحقيق نتائج مستدامة.'
+                  : 'Arabtec Consulting offers an integrated system of consulting, digital transformation, and executive training services designed to support institutional performance and achieve sustainable results.'
                 }
               </motion.p>
             </motion.div>
@@ -407,7 +407,7 @@ const Services = () => {
               <div className="relative rounded-3xl overflow-hidden shadow-strong">
                 <img 
                   src={heroMeeting} 
-                  alt={isRTL ? 'خدمات ATC' : 'ATC Services'} 
+                  alt={isRTL ? 'خدمات أربتك' : 'Arabtec Services'} 
                   className="w-full h-96 object-cover" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
@@ -485,7 +485,7 @@ const Services = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              {isRTL ? 'لماذا تختار ATC؟' : 'Why Choose ATC?'}
+              {isRTL ? 'لماذا تختار أربتك' : 'Why Choose ArabTec?'}
             </h2>
           </motion.div>
 
