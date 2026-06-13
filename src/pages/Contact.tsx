@@ -1113,7 +1113,6 @@ Our team will contact you within 24–48 hours.`
         </div>
       </section>
 
-      {/* Form and Map Section - لم يتم تصغير الفورم */}
       <section className="py-12 bg-gradient-to-br from-gray-50/30 to-white">
         <div className="container-custom">
           <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
@@ -1315,7 +1314,7 @@ Our team will contact you within 24–48 hours.`
                     }
                   </p>
                   <a 
-                    href="https://maps.app.goo.gl/KHqDfAtFcn9Dsa4a6"
+                    href="https://maps.app.goo.gl/yq5jgc45xRAYv7Gj6?g_st=iw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors text-sm font-medium"
